@@ -1,0 +1,66 @@
+@font-face {
+    font-family: bebas;
+    src: url(BebasNeue\ Regular.otf);
+}
+@font-face {
+    font-family: arima;
+    src: url(ArimaMadurai-Black.ttf);
+}
+
+body{
+    background-color: rgb(202, 202, 202);
+}
+
+.barra{
+    width: 1023px;
+}
+.secundario_largo{
+    width: 755px;
+    position: absolute;
+    font-family: arima;
+    font-size: 30px;
+    top: 150px;
+    left: 210px;
+    color: #1C1083;
+}
+
+.secundario{
+    width: 755px;
+    position: absolute;
+    font-family: arima;
+    font-size: 35px;
+    top: 160px;
+    left: 210px;
+    color: #1C1083;
+}
+
+.principal{
+    position: absolute;
+    font-family: bebas;
+    font-size: 50px;
+    font-weight: 1000;
+    color: white;
+    top: 70px;
+    left: 210px;
+}
+
+input{
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 25px;
+}
+
+.boton{
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    height: 25px;
+}
+.boton:hover{
+    cursor: pointer;
+    background-color: #F5B60E;
+}
+.input{
+    margin: 10px;
+}
